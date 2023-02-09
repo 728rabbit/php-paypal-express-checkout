@@ -25,6 +25,7 @@ class PaypalApi {
     
     private $_AdaptivePayments = false;
     private $_AdaptivePaymentsPreapproval = false;
+    
     private $_BNCode = ''; // BN Code is only applicable for partners
     
     private $_logo = '';
@@ -61,8 +62,8 @@ class PaypalApi {
             if(!empty($config['use_proxy'])) {
                 $this->_api_use_proxy = $config['use_proxy'];
             }
-            if(!empty($config['sbn_code'])) {
-                $this->_api_sbn_code = $config['sbn_code'];
+            if(!empty($config['bn_code'])) {
+                $this->_BNCode = $config['bn_code'];
             }
         }
         
