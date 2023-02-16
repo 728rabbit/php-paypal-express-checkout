@@ -4,12 +4,12 @@ $item = [
     [
         'name' => 'xxxxx',
         'price' => 2.00,
-        'quantity' => 2
+        'qty' => 2
     ],
     [
         'name' => 'yyyyy',
         'price' => 1.00,
-        'quantity' => 3
+        'qty' => 3
     ]
 ];
 
